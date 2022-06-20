@@ -1,0 +1,14 @@
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\bin\Debug\net5.0-windows\CManagementSystem.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\bin\Debug\net5.0-windows\CManagementSystem.dll
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\bin\Debug\net5.0-windows\ref\CManagementSystem.dll
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\bin\Debug\net5.0-windows\CManagementSystem.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\bin\Debug\net5.0-windows\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.dll
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\ref\CManagementSystem.dll
+G:\DESKTOP APPLICATION\Class Module\net\CManagementSystem\CManagementSystem\obj\Debug\net5.0-windows\CManagementSystem.pdb

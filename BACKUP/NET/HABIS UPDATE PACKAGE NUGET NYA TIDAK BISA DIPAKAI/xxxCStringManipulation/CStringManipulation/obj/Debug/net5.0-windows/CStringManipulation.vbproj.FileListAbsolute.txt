@@ -1,0 +1,15 @@
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\CStringManipulation.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\CStringManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\ref\CStringManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\CStringManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\ref\CStringManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.vbproj.CopyComplete
+G:\DESKTOP APPLICATION\Class Module\net\CStringManipulation\CStringManipulation\obj\Debug\net5.0-windows\CStringManipulation.vbproj.AssemblyReference.cache

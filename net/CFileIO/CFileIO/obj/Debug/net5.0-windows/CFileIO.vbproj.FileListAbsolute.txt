@@ -1,0 +1,14 @@
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\bin\Debug\net5.0-windows\CFileIO.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\bin\Debug\net5.0-windows\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\bin\Debug\net5.0-windows\ref\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\bin\Debug\net5.0-windows\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\bin\Debug\net5.0-windows\Microsoft.Office.Interop.Excel.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.vbproj.CopyComplete
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\ref\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFileIO\CFileIO\obj\Debug\net5.0-windows\CFileIO.pdb

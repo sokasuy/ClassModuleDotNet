@@ -1,0 +1,15 @@
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\net5.0-windows\CDataGridViewManipulation.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\net5.0-windows\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\net5.0-windows\ref\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\net5.0-windows\CDataGridViewManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\net5.0-windows\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.vbproj.CopyComplete
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\ref\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\net5.0-windows\CDataGridViewManipulation.vbproj.AssemblyReference.cache

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CDataGridViewManipulation/2.0.1": {
+        "dependencies": {
+          "CShowMessage": "2.0.1.0"
+        },
+        "runtime": {
+          "CDataGridViewManipulation.dll": {}
+        }
+      },
+      "CShowMessage/2.0.1.0": {
+        "runtime": {
+          "CShowMessage.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CDataGridViewManipulation/2.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CShowMessage/2.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

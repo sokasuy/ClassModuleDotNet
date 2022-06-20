@@ -1,0 +1,15 @@
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\bin\Debug\net5.0-windows\CNetworkOperation.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\bin\Debug\net5.0-windows\CNetworkOperation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\bin\Debug\net5.0-windows\ref\CNetworkOperation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\bin\Debug\net5.0-windows\CNetworkOperation.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\bin\Debug\net5.0-windows\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.vbproj.CopyComplete
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\ref\CNetworkOperation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CNetworkOperation\CNetworkOperation\obj\Debug\net5.0-windows\CNetworkOperation.pdb

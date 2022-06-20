@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6qe+m5mtrvG7H0tZAy+hfqWMuka31+WNqUuxUcrdjzZfnfRW7YT9ipjeotzBjhxrYxwTDe65w/4/fzdOPAffXQ==",
+  "success": true,
+  "projectFilePath": "G:\\DESKTOP APPLICATION\\Class Module\\net\\CStringManipulation\\CStringManipulation\\CStringManipulation.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yusak\\.nuget\\packages\\npgsql\\6.0.3\\npgsql.6.0.3.nupkg.sha512",
+    "C:\\Users\\Yusak\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

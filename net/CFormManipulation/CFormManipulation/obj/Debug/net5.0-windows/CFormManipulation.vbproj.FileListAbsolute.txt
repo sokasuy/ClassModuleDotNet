@@ -1,0 +1,15 @@
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\bin\Debug\net5.0-windows\CFormManipulation.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\bin\Debug\net5.0-windows\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\bin\Debug\net5.0-windows\ref\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\bin\Debug\net5.0-windows\CFormManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\bin\Debug\net5.0-windows\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.vbproj.CopyComplete
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\ref\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\net\CFormManipulation\CFormManipulation\obj\Debug\net5.0-windows\CFormManipulation.pdb

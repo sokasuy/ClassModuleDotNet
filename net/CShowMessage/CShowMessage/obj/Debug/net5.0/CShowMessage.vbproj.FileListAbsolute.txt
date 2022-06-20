@@ -1,0 +1,5 @@
+G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0\CShowMessage.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0\CShowMessage.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0\CShowMessage.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0\CShowMessage.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0\CShowMessage.vbproj.CoreCompileInputs.cache

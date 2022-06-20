@@ -1,0 +1,15 @@
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\CMiscFunction.deps.json
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\ref\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\CMiscFunction.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.GeneratedMSBuildEditorConfig.editorconfig
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.AssemblyInfoInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.AssemblyInfo.vb
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.vbproj.CopyComplete
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\ref\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\net\CMiscFunction\CMiscFunction\obj\Debug\net5.0-windows\CMiscFunction.pdb

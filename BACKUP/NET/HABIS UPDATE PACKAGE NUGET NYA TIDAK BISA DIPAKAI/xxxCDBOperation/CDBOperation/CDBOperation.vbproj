@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>CDBOperation</RootNamespace>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Version>2.1.1</Version>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CDBConnection">
+      <HintPath>..\..\CDBConnection\CDBConnection\bin\Debug\net5.0-windows\CDBConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="CMiscFunction">
+      <HintPath>..\..\CMiscFunction\CMiscFunction\bin\Debug\net5.0-windows\CMiscFunction.dll</HintPath>
+    </Reference>
+    <Reference Include="CShowMessage">
+      <HintPath>..\..\CShowMessage\CShowMessage\bin\Debug\net5.0-windows\CShowMessage.dll</HintPath>
+    </Reference>
+    <Reference Include="CStringManipulation">
+      <HintPath>..\..\CStringManipulation\CStringManipulation\bin\Debug\net5.0-windows\CStringManipulation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.0.0" />
+    <PackageReference Include="Npgsql" Version="6.0.0" />
+    <PackageReference Include="System.Data.OleDb" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="Microsoft.Data.SqlClient" />
+    <Import Include="System.Data" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>
