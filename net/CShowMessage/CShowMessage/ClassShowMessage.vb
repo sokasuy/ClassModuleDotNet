@@ -39,7 +39,7 @@ Public Class CShowMessage
         GetUserResponse = iResponse
     End Function
 
-    Public Function GetUserResponseWithCancel(ByRef _stMsg As String, Optional _msgCaption As String = "") As Short
+    Public Function GetUserResponseWithCancel(ByRef _stMsg As String, Optional _msgCaption As String = "") As DialogResult
         'ok
         Dim iResponse As Short
         If (_msgCaption = "") Then
