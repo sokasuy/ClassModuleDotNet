@@ -2,6 +2,7 @@ G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\bin\Debug\net5
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\bin\Debug\net5.0-windows\CShowMessage.dll
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\bin\Debug\net5.0-windows\ref\CShowMessage.dll
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\bin\Debug\net5.0-windows\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.vbproj.AssemblyReference.cache
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.GeneratedMSBuildEditorConfig.editorconfig
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.AssemblyInfoInputs.cache
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.AssemblyInfo.vb
@@ -9,4 +10,3 @@ G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.dll
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\ref\CShowMessage.dll
 G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.pdb
-G:\DESKTOP APPLICATION\Class Module\net\CShowMessage\CShowMessage\obj\Debug\net5.0-windows\CShowMessage.vbproj.AssemblyReference.cache

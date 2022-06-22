@@ -39,6 +39,17 @@ Public Class CShowMessage
         GetUserResponse = iResponse
     End Function
 
+    Public Function GetUserResponseWithCancel(ByRef _stMsg As String, Optional _msgCaption As String = "") As Short
+        'ok
+        Dim iResponse As Short
+        If (_msgCaption = "") Then
+            iResponse = MessageBox.Show(_stMsg, IIf(_msgCaption = "", "Confirmation", _msgCaption & " Confirmation"), MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)
+        Else
+            iResponse = MessageBox.Show(_stMsg, _msgCaption, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)
+        End If
+        GetUserResponseWithCancel = iResponse
+    End Function
+
     Public Sub ShowSavedMsg(ByRef _stMsg As String, Optional _msgCaption As String = "")
         'ok
         If (_msgCaption = "") Then
