@@ -28,26 +28,26 @@ Public Class CShowMessage
         End If
     End Sub
 
-    Public Function GetUserResponse(ByRef _stMsg As String, Optional _msgCaption As String = "") As Short
+    Public Function GetUserResponse(ByRef _stMsg As String, Optional _msgCaption As String = "") As DialogResult
         'ok
-        Dim iResponse As Short
+        'Dim iResponse As Short
         If (_msgCaption = "") Then
-            iResponse = MessageBox.Show(_stMsg, IIf(_msgCaption = "", "Confirmation", _msgCaption & " Confirmation"), MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+            GetUserResponse = MessageBox.Show(_stMsg, IIf(_msgCaption = "", "Confirmation", _msgCaption & " Confirmation"), MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         Else
-            iResponse = MessageBox.Show(_stMsg, _msgCaption, MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+            GetUserResponse = MessageBox.Show(_stMsg, _msgCaption, MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         End If
-        GetUserResponse = iResponse
+        'GetUserResponse = iResponse
     End Function
 
     Public Function GetUserResponseWithCancel(ByRef _stMsg As String, Optional _msgCaption As String = "") As DialogResult
         'ok
-        Dim iResponse As Short
+        'Dim iResponse As Short
         If (_msgCaption = "") Then
-            iResponse = MessageBox.Show(_stMsg, IIf(_msgCaption = "", "Confirmation", _msgCaption & " Confirmation"), MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)
+            GetUserResponseWithCancel = MessageBox.Show(_stMsg, IIf(_msgCaption = "", "Confirmation", _msgCaption & " Confirmation"), MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)
         Else
-            iResponse = MessageBox.Show(_stMsg, _msgCaption, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)
+            GetUserResponseWithCancel = MessageBox.Show(_stMsg, _msgCaption, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question)
         End If
-        GetUserResponseWithCancel = iResponse
+        'GetUserResponseWithCancel = iResponse
     End Function
 
     Public Sub ShowSavedMsg(ByRef _stMsg As String, Optional _msgCaption As String = "")
