@@ -1319,13 +1319,13 @@ Public Class CDBOperation
                 stSQL = "SELECT " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & _prefixKode & "%'" &
-                        "ORDER BY " & _idField & " DESC " &
+                        "ORDER BY " & _kodeField & " DESC " &
                         "LIMIT 1;"
             Else
                 stSQL = "SELECT TOP 1 " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & _prefixKode & "%' " &
-                        "ORDER BY " & _idField & " DESC;"
+                        "ORDER BY " & _kodeField & " DESC;"
             End If
             myAutoKode = GetDataIndividual(_conn, _comm, _reader, stSQL)
 
@@ -1380,13 +1380,13 @@ Public Class CDBOperation
                 stSQL = "SELECT " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & myPrefixKode & "%'" &
-                        "ORDER BY " & _idField & " DESC " &
+                        "ORDER BY " & _kodeField & " DESC " &
                         "LIMIT 1;"
             Else
                 stSQL = "SELECT TOP 1 " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & myPrefixKode & "%' " &
-                        "ORDER BY " & _idField & " DESC;"
+                        "ORDER BY " & _kodeField & " DESC;"
             End If
             myAutoKode = GetDataIndividual(_conn, _comm, _reader, stSQL)
 
