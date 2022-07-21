@@ -124,3 +124,4 @@ G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\De
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.dll
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.vbproj.AssemblyReference.cache
