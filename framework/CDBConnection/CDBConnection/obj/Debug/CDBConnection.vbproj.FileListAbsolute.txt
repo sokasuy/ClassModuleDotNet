@@ -117,6 +117,7 @@ G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\De
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.Text.Json.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.Threading.Tasks.Extensions.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.ValueTuple.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.vbproj.AssemblyReference.cache
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.Resources.resources
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.vbproj.GenerateResource.cache
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.vbproj.CoreCompileInputs.cache
@@ -124,4 +125,3 @@ G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\De
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.dll
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.pdb
-G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\obj\Debug\CDBConnection.vbproj.AssemblyReference.cache

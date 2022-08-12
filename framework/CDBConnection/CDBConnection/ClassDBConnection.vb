@@ -139,7 +139,7 @@ Public Class CDBConnection
             Select Case _prvdrType
                 Case "3.51", "4.0"
                     stProvider = "Provider=Microsoft.Jet.OLEDB." & _prvdrType & ";" 'utk Access 97  : Microsoft.Jet.OLEDB.3.51 = MSJET35.DLL 24-Apr-1998, di \system32\
-                Case "12.0"
+                Case Else
                     stProvider = "Provider=Microsoft.ACE.OLEDB." & _prvdrType & ";" 'utk Access 2007 dst
                     'stProvider = "Provider=Microsoft.ACE.OLEDB.12.0;" 'utk Access 2007 dst
             End Select
