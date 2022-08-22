@@ -122,12 +122,12 @@ Public Class CFileIO
     End Sub
 
     Function SheetExists(_sheetToFind As String, _file As String) As Boolean
+        Dim oXL As Excel.Application = CType(CreateObject("Excel.Application"), Excel.Application)
+        Dim oWB As Excel.Workbook
+        Dim oSheet As Excel.Worksheet
+        'Dim sheet_found As Boolean
         Try
             'Dim SheetNameToCheck As String = "Sheet22"
-            Dim oSheet As Excel.Worksheet
-            'Dim sheet_found As Boolean
-            Dim oWB As Excel.Workbook
-            Dim oXL As Excel.Application = CType(CreateObject("Excel.Application"), Excel.Application)
             '~~> Opens an exisiting Workbook. Change path and filename as applicable
             oWB = oXL.Workbooks.Open(_file)
             '~~> Display Excel
@@ -142,13 +142,11 @@ Public Class CFileIO
                 End If
             Next
             oXL.Quit()
-            'If SheetExists Then
-            '    MessageBox.Show("The sheet " & _sheetToFind & " found.")
-            'Else
-            '    MessageBox.Show("Not found.")
-            'End If
         Catch ex As Exception
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "SheetExists Error")
+            'harus ditaruh di finally, karena kalau ditaruh di try, kalau misal export excel gagal mungkin gara2 path yang dituju tidak ada
+            'maka fungsi ini akan tetap dijalankan
+            ExcelCleanUp(oXL, oWB, oSheet)
             SheetExists = False
         End Try
     End Function
@@ -353,6 +351,7 @@ Public Class CFileIO
             Else
                 'untuk spesifik
                 'Nanti saja
+                SetFilterForAttachment = Nothing
             End If
         Catch ex As Exception
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "SetFilterForAttachment Error")

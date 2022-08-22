@@ -150,6 +150,8 @@ Public Class CDBConnection
             ElseIf (_excelVersion.ToLower = "xlsx") Then
                 'kalau buat file excel 2007
                 ExcelConStr = stProvider & "Data Source=" & _dataSource & ";Extended Properties=Excel 12.0 Xml;"
+            Else
+                ExcelConStr = Nothing
             End If
 
             '"HDR=Yes;" indicates that the first row contains columnnames, not data. "HDR=No;" indicates the opposite.
@@ -292,6 +294,8 @@ Public Class CDBConnection
                 SetSqlConStrNew = "Server=" & _myServerAddress & ";Database=" & _myDataBase & ";User Id=" & _myUsername & ";Password=" & _myPassword & ";"
             ElseIf (_connType = "IP_ADDRESS") Then
                 SetSqlConStrNew = "Data Source=" & _myServerAddress & "," & _serverPort & ";Network Library=DBMSSOCN;Initial Catalog=" & _myDataBase & ";User ID=" & _myUsername & ";Password=" & _myPassword & ";"
+            Else
+                SetSqlConStrNew = Nothing
             End If
         Catch ex As Exception
             SetSqlConStrNew = Nothing
