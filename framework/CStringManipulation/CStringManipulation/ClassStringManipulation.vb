@@ -1383,4 +1383,38 @@ Public Class CStringManipulation
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "CalculateDaysBetweenDates Error")
         End Try
     End Function
+
+    Public Function GenerateRandomString(ByRef iLength As Integer) As String
+        Try
+            Dim rdm As New Random()
+            'Dim allowChrs() As Char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLOMNOPQRSTUVWXYZ0123456789".ToCharArray()
+            Dim allowChrs() As Char = "ABCDEFGHIJKLOMNOPQRSTUVWXYZ".ToCharArray()
+            Dim sResult As String = ""
+
+            For i As Integer = 0 To iLength - 1
+                sResult += allowChrs(rdm.Next(0, allowChrs.Length))
+            Next
+
+            Return sResult
+        Catch ex As Exception
+            Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "GenerateRandomString Error")
+            Return Nothing
+        End Try
+    End Function
+
+    Public Function GetRandomString(ByVal iLength As Integer) As String
+        Try
+            Dim sResult As String = ""
+            Dim rdm As New Random()
+
+            For i As Integer = 1 To iLength
+                sResult &= ChrW(rdm.Next(32, 126))
+            Next
+
+            Return sResult
+        Catch ex As Exception
+            Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "GetRandomString Error")
+            Return Nothing
+        End Try
+    End Function
 End Class
