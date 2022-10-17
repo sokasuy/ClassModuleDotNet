@@ -1,9 +1,0 @@
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.dll
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.pdb
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.xml
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.Resources.resources
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.GenerateResource.cache
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.CoreCompileInputs.cache
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.dll
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.xml
-G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.pdb

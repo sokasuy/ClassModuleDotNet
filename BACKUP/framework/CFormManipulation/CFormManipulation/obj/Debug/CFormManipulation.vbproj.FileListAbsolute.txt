@@ -1,9 +1,0 @@
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.dll
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.pdb
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.xml
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.Resources.resources
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.GenerateResource.cache
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.CoreCompileInputs.cache
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.dll
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.xml
-G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.pdb
