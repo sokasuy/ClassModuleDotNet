@@ -28,6 +28,8 @@ Public Class CDBOperation
                 End If
             ElseIf (TypeOf _conn Is SqlConnection) Then
                 _comm = New SqlCommand
+            ElseIf (TypeOf _conn Is MySql.Data.MySqlClient.MySqlConnection) Then
+                _comm = New MySql.Data.MySqlClient.MySqlCommand
             End If
             If (_isTransaction) Then
                 _comm.Transaction = _transaction

@@ -125,3 +125,5 @@ G:\DESKTOP APPLICATION\Class Module\framework\CDBOperation\CDBOperation\obj\Debu
 G:\DESKTOP APPLICATION\Class Module\framework\CDBOperation\CDBOperation\obj\Debug\CDBOperation.dll
 G:\DESKTOP APPLICATION\Class Module\framework\CDBOperation\CDBOperation\obj\Debug\CDBOperation.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBOperation\CDBOperation\obj\Debug\CDBOperation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CDBOperation\CDBOperation\bin\Debug\MySql.Data.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBOperation\CDBOperation\bin\Debug\MySql.Data.xml

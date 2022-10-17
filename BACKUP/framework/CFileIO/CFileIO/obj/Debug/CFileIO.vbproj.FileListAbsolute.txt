@@ -1,0 +1,10 @@
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.AssemblyReference.cache

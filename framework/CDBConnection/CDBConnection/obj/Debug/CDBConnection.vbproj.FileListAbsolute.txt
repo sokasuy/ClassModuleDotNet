@@ -107,6 +107,12 @@ G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\De
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.Text.Json.dll
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.Threading.Tasks.Extensions.dll
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.ValueTuple.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\Google.Protobuf.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\ZstdNet.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\Ubiety.Dns.Core.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\K4os.Compression.LZ4.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\K4os.Hash.xxHash.dll
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\Npgsql.xml
 G:\DESKTOP APPLICATION\Class Module\framework\CDBConnection\CDBConnection\bin\Debug\System.Buffers.xml

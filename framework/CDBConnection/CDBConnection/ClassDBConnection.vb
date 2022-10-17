@@ -54,6 +54,11 @@ Public Class CDBConnection
                 prvdrTypePGSql = myCFileIO.ReadIniFile(_dbType, _prvdrType, _filePathFileName)
                 DbPath = myCFileIO.ReadIniFile(_dbType, _dbPath, _filePathFileName)
                 Call SetDbPath(_conn, _dbType, serverName, DbPath, prvdrTypePGSql, _userName, _password,, serverPort)
+            ElseIf (_dbType = "MYSQL") Then
+                serverName = myCFileIO.ReadIniFile(_dbType, _serverName, _filePathFileName)
+                serverPort = myCFileIO.ReadIniFile(_dbType, _serverPort, _filePathFileName)
+                DbPath = myCFileIO.ReadIniFile(_dbType, _dbPath, _filePathFileName)
+                Call SetDbPath(_conn, _dbType, serverName, DbPath, "", _userName, _password,, serverPort)
             End If
         Catch ex As Exception
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "SetDBParameter Error")
@@ -92,6 +97,9 @@ Public Class CDBConnection
             ElseIf (_dbType = "EXCEL") Then
                 _conn = New OleDb.OleDbConnection
                 Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw, _excelVersion)
+            ElseIf (_dbType = "MYSQL") Then
+                _conn = New MySql.Data.MySqlClient.MySqlConnection
+                Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw)
             End If
             SetDbPath = True
         Catch ex As Exception
@@ -179,6 +187,8 @@ Public Class CDBConnection
                     .ConnectionString = SetPgSqlConStr(_prvdrType, _serverName, _dbName, _serverPort, _usrID, _dbPsw)
                 ElseIf (_mType = "EXCEL") Then
                     .ConnectionString = ExcelConStr(_prvdrType, _dbName, _excelVersion)
+                ElseIf (_mType = "MYSQL") Then
+                    .ConnectionString = SetMySqlConStr(_prvdrType, _serverName, _dbName, _serverPort, _usrID, _dbPsw)
                 End If
             End With
 
@@ -219,6 +229,25 @@ Public Class CDBConnection
         Catch ex As Exception
             SetPgSqlConStr = Nothing
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "SetPgSqlConStr Error")
+        End Try
+    End Function
+
+    Public Function SetMySqlConStr(_prvdrType As String, _serverName As String, _dbName As String, _serverPort As Integer, Optional _usrID As String = "", Optional _dbPsw As String = "") As String
+        '>>> dipakai jika Db tdk diset usernya
+        Try
+            Dim stProvider As String = ""
+            Dim conSql As String
+
+            If (Trim(_dbPsw) = "") Then
+                'tanpa Password
+                conSql = "Server=" & _serverName & ";Database=" & _dbName & ";CommandTimeout=200;"
+            Else
+                conSql = "Server=" & _serverName & ";Database=" & _dbName & ";uid=" & _usrID & ";pwd=" & _dbPsw & ";"
+            End If
+            SetMySqlConStr = conSql
+        Catch ex As Exception
+            SetMySqlConStr = Nothing
+            Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "SetMySqlConStr Error")
         End Try
     End Function
 
