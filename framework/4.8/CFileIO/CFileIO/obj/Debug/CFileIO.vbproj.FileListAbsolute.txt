@@ -1,0 +1,38 @@
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.AssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\bin\Debug\CFileIO.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CFileIO\CFileIO\obj\Debug\CFileIO.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\bin\Debug\CFileIO.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\bin\Debug\CFileIO.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\bin\Debug\CFileIO.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\bin\Debug\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\bin\Debug\CFileIO.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\bin\Debug\CFileIO.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFileIO\CFileIO\obj\Debug\CFileIO.pdb

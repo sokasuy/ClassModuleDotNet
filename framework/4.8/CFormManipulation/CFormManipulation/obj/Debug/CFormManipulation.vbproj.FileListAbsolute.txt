@@ -1,0 +1,37 @@
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\bin\Debug\CFormManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CFormManipulation\CFormManipulation\obj\Debug\CFormManipulation.pdb

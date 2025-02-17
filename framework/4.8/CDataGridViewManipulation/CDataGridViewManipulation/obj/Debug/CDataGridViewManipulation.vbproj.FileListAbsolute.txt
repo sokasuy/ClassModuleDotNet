@@ -1,0 +1,38 @@
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.pdb
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.dll
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.pdb
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.xml
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.Resources.resources
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.GenerateResource.Cache
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.dll
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.xml
+D:\Kerjaan\Project\Class Module\framework4\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\bin\Debug\CDataGridViewManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataGridViewManipulation\CDataGridViewManipulation\obj\Debug\CDataGridViewManipulation.pdb

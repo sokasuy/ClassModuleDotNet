@@ -1,0 +1,38 @@
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\bin\Debug\CMiscFunction.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CMiscFunction\CMiscFunction\obj\Debug\CMiscFunction.pdb

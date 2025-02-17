@@ -1,0 +1,36 @@
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.xml
+G:\DESKTOP APPLICATION\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\bin\Debug\CShowMessage.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.dll
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.xml
+D:\Kerjaan\PROJECT\Class Module\framework\CShowMessage\CShowMessage\obj\Debug\CShowMessage.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\bin\Debug\CShowMessage.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\bin\Debug\CShowMessage.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\bin\Debug\CShowMessage.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\bin\Debug\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\bin\Debug\CShowMessage.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\bin\Debug\CShowMessage.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.AssemblyReference.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CShowMessage\CShowMessage\obj\Debug\CShowMessage.pdb
