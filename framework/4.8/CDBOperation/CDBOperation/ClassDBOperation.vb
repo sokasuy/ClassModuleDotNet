@@ -404,9 +404,9 @@ Public Class CDBOperation
         'digunakan apabila memasukkan data baru yang primary key nya auto number
         Try
             If _fieldnames.Length = 0 Then
-                Call CommandConstructor(_conn, _comm, "INSERT INTO " & _tablename & " VALUES (" & _valuetexts & ");", "insert", _checkPetik)
+                Call CommandConstructor(_conn, _comm, "INSERT INTO " & _tablename & " VALUES (" & _valuetexts & ")" & IIf(TypeOf _conn Is OracleConnection, "", ";"), "insert", _checkPetik)
             Else
-                Call CommandConstructor(_conn, _comm, "INSERT INTO " & _tablename & " (" & _fieldnames & ") VALUES (" & _valuetexts & ");", "insert", _checkPetik)
+                Call CommandConstructor(_conn, _comm, "INSERT INTO " & _tablename & " (" & _fieldnames & ") VALUES (" & _valuetexts & ")" & IIf(TypeOf _conn Is OracleConnection, "", ";"), "insert", _checkPetik)
             End If
             'InputBox("", "", "INSERT INTO " & _tablename & " (" & _fieldnames & ") VALUES (" & _valuetexts & ");")
             Call ExecuteNonQueryFunction(_comm)
@@ -421,9 +421,9 @@ Public Class CDBOperation
         'sebaiknya klw bisa satu2, lebih baik pakai satu2, karena update bersamaan lebih berat bebannya daripada satu per satu
         Try
             If _whereString.Length = 0 Then
-                Call CommandConstructor(_conn, _comm, "UPDATE " & _tablename & " SET " & _setString & ";", "update", _checkPetik)
+                Call CommandConstructor(_conn, _comm, "UPDATE " & _tablename & " SET " & _setString & IIf(TypeOf _conn Is OracleConnection, "", ";"), "update", _checkPetik)
             Else
-                Call CommandConstructor(_conn, _comm, "UPDATE " & _tablename & " SET " & _setString & " WHERE " & _whereString & ";", "update", _checkPetik)
+                Call CommandConstructor(_conn, _comm, "UPDATE " & _tablename & " SET " & _setString & " WHERE " & _whereString & IIf(TypeOf _conn Is OracleConnection, "", ";"), "update", _checkPetik)
             End If
             'InputBox("", "", "UPDATE " & tablename & " SET " & setString & " WHERE " & whereString & ";")
             Call ExecuteNonQueryFunction(_comm)
@@ -490,7 +490,7 @@ Public Class CDBOperation
             ElseIf (_dbType = "sql" Or _dbType = "pgsql") Then
                 stSQLDel = "Delete From " & _stTableName & " " & _stCrit & ";"
             ElseIf (_dbType = "oracle") Then
-                stSQLDel = "Delete From " & _stTableName & " " & _stCrit & ""
+                stSQLDel = "Delete From " & _stTableName & " " & _stCrit
             Else
                 stSQLDel = Nothing
             End If
@@ -859,7 +859,7 @@ Public Class CDBOperation
             End If
 
             stSQL = "SELECT DISTINCT " & _pFldName & " as F from " & _pTblName
-            If Trim(_pFilter) <> "" Then stSQL = stSQL & " where " & _pFilter & ";"
+            If Trim(_pFilter) <> "" Then stSQL = stSQL & " where " & _pFilter & IIf(TypeOf _conn Is OracleConnection, "", ";")
             'return value akan = 0 jika tidak ada record / tidak ada record yg sesuai kriteria
 
             Call CommandConstructor(_conn, _comm, stSQL, "select", _checkPetik)
@@ -972,9 +972,9 @@ Public Class CDBOperation
             ElseIf (TypeOf _conn Is OracleConnection) Then
                 stSQL = "select " & _pFieldName & " var from " & _pTableName
                 If Trim(_pCriteria) <> "" Then
-                    stSQL = stSQL & " where " & _pCriteria & " fetch first 1 row"
+                    stSQL = stSQL & " where " & _pCriteria & " fetch first 1 row only"
                 Else
-                    stSQL = stSQL & " fetch first 1 row"
+                    stSQL = stSQL & " fetch first 1 row only"
                 End If
             Else
                 stSQL = Nothing
@@ -1025,7 +1025,7 @@ Public Class CDBOperation
             End If
 
             stSQL = "SELECT Min(T." & _pFieldName & ") AS MinValue " & "FROM " & _pTableName & " as T "
-            If Trim(_pFilter) <> "" Then stSQL = stSQL & " WHERE (" & _pFilter & ");"
+            If Trim(_pFilter) <> "" Then stSQL = stSQL & " WHERE (" & _pFilter & ")" & IIf(TypeOf _conn Is OracleConnection, "", ";")
             Call CommandConstructor(_conn, _comm, stSQL, "select", _checkPetik)
             _reader = ExecuteReaderFunction(_comm)
 
@@ -1060,7 +1060,7 @@ Public Class CDBOperation
             End If
 
             stSQL = "SELECT Max(T." & _pFieldName & ") AS MaxValue " & "FROM " & _pTableName & " as T "
-            If Trim(_pFilter) <> "" Then stSQL = stSQL & " WHERE (" & _pFilter & ");"
+            If Trim(_pFilter) <> "" Then stSQL = stSQL & " WHERE (" & _pFilter & ")" & IIf(TypeOf _conn Is OracleConnection, "", ";")
 
             Call CommandConstructor(_conn, _comm, stSQL, "select", _checkPetik)
             _reader = ExecuteReaderFunction(_comm)
@@ -1088,7 +1088,7 @@ Public Class CDBOperation
         Dim stSQL As String
         Try
             stSQL = "SELECT Sum(" & _pFldName & ") AS jml FROM " & _pTblName & " as T "
-            If Trim(_pFilter) <> "" Then stSQL = stSQL & " WHERE (" & _pFilter & ");"
+            If Trim(_pFilter) <> "" Then stSQL = stSQL & " WHERE (" & _pFilter & ")" & IIf(TypeOf _conn Is OracleConnection, "", ";")
 
             'Call OpenConn(pConn)
 
@@ -1132,7 +1132,7 @@ Public Class CDBOperation
                 If (_dbType = "pgsql") Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " LIMIT 1;"
                 ElseIf (_dbType = "oracle") Then
-                    stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW"
+                    stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW ONLY"
                 Else
                     stSQL = "SELECT TOP 1 " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & ";"
                 End If
@@ -1140,7 +1140,7 @@ Public Class CDBOperation
                 If (_dbType = "pgsql") Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " LIMIT 1;"
                 ElseIf (_dbType = "oracle") Then
-                    stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW"
+                    stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW ONLY"
                 Else
                     stSQL = "SELECT TOP 1 " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & ";"
                 End If
@@ -1302,7 +1302,7 @@ Public Class CDBOperation
                 stSQL = "SELECT kode " &
                         "FROM " & _tblName & " " &
                         "ORDER BY id DESC " &
-                        "FETCH FIRST 1 ROW"
+                        "FETCH FIRST 1 ROW ONLY"
             Else
                 stSQL = "SELECT TOP 1 (" & _tblName & ".kode) " &
                         "FROM(" & _tblName & ") " &
@@ -1374,7 +1374,7 @@ Public Class CDBOperation
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & _prefixKode & "%'" &
                         "ORDER BY " & _kodeField & " DESC " &
-                        "FETCH FIRST 1 ROW"
+                        "FETCH FIRST 1 ROW ONLY"
             Else
                 stSQL = "SELECT TOP 1 " & _kodeField & " " &
                         "FROM " & _tblName & " " &
@@ -1441,7 +1441,7 @@ Public Class CDBOperation
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & myPrefixKode & "%'" &
                         "ORDER BY " & _kodeField & " DESC " &
-                        "FETCH FIRST 1 ROW"
+                        "FETCH FIRST 1 ROW ONLY"
             Else
                 stSQL = "SELECT TOP 1 " & _kodeField & " " &
                         "FROM " & _tblName & " " &
