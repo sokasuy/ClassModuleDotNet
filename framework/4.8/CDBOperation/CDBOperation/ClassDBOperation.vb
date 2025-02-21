@@ -4,6 +4,9 @@
 'Imports CMiscFunction.CMiscFunction
 'Imports CDBConnection.CDBConnection
 Imports System.Data.SqlClient
+Imports Npgsql
+Imports Oracle.ManagedDataAccess.Client
+Imports MySql.Data.MySqlClient
 
 Public Class CDBOperation
     Private myCShowMessage As New CShowMessage.CShowMessage
@@ -18,9 +21,9 @@ Public Class CDBOperation
             If (TypeOf _conn Is OleDb.OleDbConnection) Then
                 'Jika koneksi oledb (access, sql)
                 _comm = New OleDb.OleDbCommand
-            ElseIf (TypeOf _conn Is Npgsql.NpgsqlConnection) Then
+            ElseIf (TypeOf _conn Is NpgsqlConnection) Then
                 'Jika koneksi postgresql
-                _comm = New Npgsql.NpgsqlCommand
+                _comm = New NpgsqlCommand
                 'defaultnya gak dikasih petik
                 If _checkPetik Then
                     'Klw harus dikasih petik
@@ -28,10 +31,10 @@ Public Class CDBOperation
                 End If
             ElseIf (TypeOf _conn Is SqlConnection) Then
                 _comm = New SqlCommand
-            ElseIf (TypeOf _conn Is MySql.Data.MySqlClient.MySqlConnection) Then
-                _comm = New MySql.Data.MySqlClient.MySqlCommand
-            ElseIf (TypeOf _conn Is Oracle.ManagedDataAccess.Client.OracleConnection) Then
-                _comm = New Oracle.ManagedDataAccess.Client.OracleCommand
+            ElseIf (TypeOf _conn Is MySqlConnection) Then
+                _comm = New MySqlCommand
+            ElseIf (TypeOf _conn Is OracleConnection) Then
+                _comm = New OracleCommand
             End If
             If (_isTransaction) Then
                 _comm.Transaction = _transaction
@@ -88,7 +91,7 @@ Public Class CDBOperation
         End Try
     End Function
 
-    Public Function GetDataTableUsingAdapterNpgsql(_conn As Npgsql.NpgsqlConnection, _dataAdapter As Npgsql.NpgsqlDataAdapter, _stSQL As String, _tablename As String) As DataTable
+    Public Function GetDataTableUsingAdapterNpgsql(_conn As NpgsqlConnection, _dataAdapter As NpgsqlDataAdapter, _stSQL As String, _tablename As String) As DataTable
         'OK
         'untuk membuat satu tabel yang sumbernya diambil dari database
         'diperlukan untuk mengisi datagrid, flexgrid, trueDBCombo, dll yang sifatnya mengambil satu paket records, seperti klw ingin mengambil satu isi tabel tertentu
@@ -98,8 +101,8 @@ Public Class CDBOperation
         Try
             Dim dtSet As New DataSet
             _stSQL = myCStringManipulation.SetStringForComm(_conn, "select", _stSQL)
-            _dataAdapter = New Npgsql.NpgsqlDataAdapter(_stSQL, _conn)
-            Dim cb As New Npgsql.NpgsqlCommandBuilder(_dataAdapter)
+            _dataAdapter = New NpgsqlDataAdapter(_stSQL, _conn)
+            Dim cb As New NpgsqlCommandBuilder(_dataAdapter)
             dtSet.Tables.Add(New DataTable(_tablename))
             'dtSet = GetDataSet(Conn, OleSQL, tablename)
             _dataAdapter.FillSchema(dtSet, SchemaType.Mapped, _tablename)
@@ -108,6 +111,29 @@ Public Class CDBOperation
         Catch ex As Exception
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "GetDataTableUsingAdapterNpgsql Error")
             GetDataTableUsingAdapterNpgsql = Nothing
+        End Try
+    End Function
+
+    Public Function GetDataTableUsingOracleMDAC(_conn As OracleConnection, _dataAdapter As OracleDataAdapter, _stSQL As String, _tablename As String) As DataTable
+        'OK
+        'untuk membuat satu tabel yang sumbernya diambil dari database
+        'diperlukan untuk mengisi datagrid, flexgrid, trueDBCombo, dll yang sifatnya mengambil satu paket records, seperti klw ingin mengambil satu isi tabel tertentu
+        '>>>NOTE: agar bisa mengupdate data tabel yang sourcenya dari multiple table, dataAdapter yang digunakan harus berbeda, kalau tidak akan tampil error seperti ini
+        'An unhandled exception of type 'System.InvalidOperationException' occurred in system.data.dll
+        'Additional information: Missing the DataColumn 'KOLOM_A' in the DataTable 'NAMA DATA TABEL' for the SourceColumn 'KOLOM_A'.
+        Try
+            Dim dtSet As New DataSet
+            _stSQL = myCStringManipulation.SetStringForComm(_conn, "select", _stSQL)
+            _dataAdapter = New OracleDataAdapter(_stSQL, _conn)
+            Dim cb As New OracleCommandBuilder(_dataAdapter)
+            dtSet.Tables.Add(New DataTable(_tablename))
+            'dtSet = GetDataSet(Conn, OleSQL, tablename)
+            _dataAdapter.FillSchema(dtSet, SchemaType.Mapped, _tablename)
+            _dataAdapter.Fill(dtSet.Tables(_tablename))
+            GetDataTableUsingOracleMDAC = dtSet.Tables(_tablename)
+        Catch ex As Exception
+            Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "GetDataTableUsingOracleMDAC Error")
+            GetDataTableUsingOracleMDAC = Nothing
         End Try
     End Function
 
@@ -463,6 +489,8 @@ Public Class CDBOperation
                 stSQLDel = "Delete T.* From " & _stTableName & " as T " & _stCrit & ";"
             ElseIf (_dbType = "sql" Or _dbType = "pgsql") Then
                 stSQLDel = "Delete From " & _stTableName & " " & _stCrit & ";"
+            ElseIf (_dbType = "oracle") Then
+                stSQLDel = "Delete From " & _stTableName & " " & _stCrit & ""
             Else
                 stSQLDel = Nothing
             End If
@@ -934,12 +962,19 @@ Public Class CDBOperation
                 If Trim(_pCriteria) <> "" Then
                     stSQL = stSQL & " where " & _pCriteria & ";"
                 End If
-            ElseIf (TypeOf _conn Is Npgsql.NpgsqlConnection) Then
+            ElseIf (TypeOf _conn Is NpgsqlConnection) Then
                 stSQL = "select " & _pFieldName & " as var from " & _pTableName
                 If Trim(_pCriteria) <> "" Then
                     stSQL = stSQL & " where " & _pCriteria & " limit 1;"
                 Else
                     stSQL = stSQL & " limit 1;"
+                End If
+            ElseIf (TypeOf _conn Is OracleConnection) Then
+                stSQL = "select " & _pFieldName & " var from " & _pTableName
+                If Trim(_pCriteria) <> "" Then
+                    stSQL = stSQL & " where " & _pCriteria & " fetch first 1 row"
+                Else
+                    stSQL = stSQL & " fetch first 1 row"
                 End If
             Else
                 stSQL = Nothing
@@ -1096,12 +1131,16 @@ Public Class CDBOperation
             If Not IsNothing(_pFilter) Then
                 If (_dbType = "pgsql") Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " LIMIT 1;"
+                ElseIf (_dbType = "oracle") Then
+                    stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW"
                 Else
                     stSQL = "SELECT TOP 1 " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & ";"
                 End If
             Else
                 If (_dbType = "pgsql") Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " LIMIT 1;"
+                ElseIf (_dbType = "oracle") Then
+                    stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW"
                 Else
                     stSQL = "SELECT TOP 1 " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & ";"
                 End If
@@ -1120,15 +1159,15 @@ Public Class CDBOperation
         Try
             If Not IsNothing(_pFilter) Then
                 'If (_dbType = "pgsql") Then
-                stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & " WHERE " & _pFilter & " " & _groupByStatement & ";"
+                stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & " WHERE " & _pFilter & " " & _groupByStatement & IIf(_dbType = "oracle", "", ";")
                 'Else
-                '    stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & " WHERE " & _pFilter & ";"
+                '    stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & " WHERE " & _pFilter & ";"
                 'End If
             Else
                 'If (_dbType = "pgsql") Then
-                stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & " " & _groupByStatement & ";"
+                stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & " " & _groupByStatement & IIf(_dbType = "oracle", "", ";")
                 'Else
-                '    stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & ";"
+                '    stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & ";"
                 'End If
             End If
             GetFormulationRecord = GetDataIndividual(_conn, _comm, _reader, stSQL)
@@ -1205,7 +1244,7 @@ Public Class CDBOperation
             While isExist
                 If (_dbType = "access") Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at=#" & Now.AddSeconds(idx) & "#")
-                ElseIf (_dbType = "sql" Or _dbType = "pgsql") Then
+                ElseIf (_dbType = "sql" Or _dbType = "pgsql" Or _dbType = "oracle") Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at='" & Now.AddSeconds(idx) & "'")
                 End If
                 If Not isExist Then
@@ -1232,7 +1271,7 @@ Public Class CDBOperation
             While isExist
                 If (_dbType = "access") Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at=#" & Now.AddSeconds(idx) & "#")
-                ElseIf (_dbType = "sql" Or _dbType = "pgsql") Then
+                ElseIf (_dbType = "sql" Or _dbType = "pgsql" Or _dbType = "oracle") Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at='" & Now.AddSeconds(idx) & "'")
                 End If
                 If Not isExist Then
@@ -1259,6 +1298,11 @@ Public Class CDBOperation
                         "FROM " & _tblName & " " &
                         "ORDER BY id DESC " &
                         "LIMIT 1;"
+            ElseIf (_dbType = "oracle") Then
+                stSQL = "SELECT kode " &
+                        "FROM " & _tblName & " " &
+                        "ORDER BY id DESC " &
+                        "FETCH FIRST 1 ROW"
             Else
                 stSQL = "SELECT TOP 1 (" & _tblName & ".kode) " &
                         "FROM(" & _tblName & ") " &
@@ -1325,6 +1369,12 @@ Public Class CDBOperation
                         "WHERE " & _kodeField & " like '" & _prefixKode & "%'" &
                         "ORDER BY " & _kodeField & " DESC " &
                         "LIMIT 1;"
+            ElseIf (_dbType = "oracle") Then
+                stSQL = "SELECT " & _kodeField & " " &
+                        "FROM " & _tblName & " " &
+                        "WHERE " & _kodeField & " like '" & _prefixKode & "%'" &
+                        "ORDER BY " & _kodeField & " DESC " &
+                        "FETCH FIRST 1 ROW"
             Else
                 stSQL = "SELECT TOP 1 " & _kodeField & " " &
                         "FROM " & _tblName & " " &
@@ -1386,6 +1436,12 @@ Public Class CDBOperation
                         "WHERE " & _kodeField & " like '" & myPrefixKode & "%'" &
                         "ORDER BY " & _kodeField & " DESC " &
                         "LIMIT 1;"
+            ElseIf (_dbType = "oracle") Then
+                stSQL = "SELECT " & _kodeField & " " &
+                        "FROM " & _tblName & " " &
+                        "WHERE " & _kodeField & " like '" & myPrefixKode & "%'" &
+                        "ORDER BY " & _kodeField & " DESC " &
+                        "FETCH FIRST 1 ROW"
             Else
                 stSQL = "SELECT TOP 1 " & _kodeField & " " &
                         "FROM " & _tblName & " " &

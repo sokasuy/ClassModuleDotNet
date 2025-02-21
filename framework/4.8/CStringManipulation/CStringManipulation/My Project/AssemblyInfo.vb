@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("CStringManipulation")>
-<Assembly: AssemblyCopyright("Copyright ©  2021")>
+<Assembly: AssemblyCopyright("Copyright © Yusak OS 2021")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

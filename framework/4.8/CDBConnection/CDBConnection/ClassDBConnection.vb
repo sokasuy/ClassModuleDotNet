@@ -1,5 +1,8 @@
 ﻿Imports System.Windows.Forms
 Imports System.Data.SqlClient
+Imports Npgsql
+Imports Oracle.ManagedDataAccess.Client
+Imports MySql.Data.MySqlClient
 
 Public Class CDBConnection
     Private myCShowMessage As New CShowMessage.CShowMessage
@@ -97,16 +100,16 @@ Public Class CDBConnection
                 _conn = New SqlConnection
                 Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw,, _connType)
             ElseIf (_dbType = "PGSQL") Then
-                _conn = New Npgsql.NpgsqlConnection
+                _conn = New NpgsqlConnection
                 Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw)
             ElseIf (_dbType = "EXCEL") Then
                 _conn = New OleDb.OleDbConnection
                 Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw, _excelVersion)
             ElseIf (_dbType = "MYSQL") Then
-                _conn = New MySql.Data.MySqlClient.MySqlConnection
+                _conn = New MySqlConnection
                 Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw)
             ElseIf (_dbType = "ORACLE") Then
-                _conn = New Oracle.ManagedDataAccess.Client.OracleConnection
+                _conn = New OracleConnection
                 Call SetAndOpenConnDB(_dbType, _conn, _prvdrType, serverName, DbPath, "", serverPort, _usrID, _dbPsw)
             End If
             SetDbPath = True
