@@ -485,11 +485,11 @@ Public Class CDBOperation
                     _stCrit = " WHERE " & _stCrit
                 End If
             End If
-            If (_dbType = "access") Then
+            If (TypeOf _conn Is OleDb.OleDbConnection) Then
                 stSQLDel = "Delete T.* From " & _stTableName & " as T " & _stCrit & ";"
-            ElseIf (_dbType = "sql" Or _dbType = "pgsql") Then
+            ElseIf (TypeOf _conn Is SqlConnection Or TypeOf _conn Is OracleConnection) Then
                 stSQLDel = "Delete From " & _stTableName & " " & _stCrit & ";"
-            ElseIf (_dbType = "oracle") Then
+            ElseIf (TypeOf _conn Is OracleConnection) Then
                 stSQLDel = "Delete From " & _stTableName & " " & _stCrit
             Else
                 stSQLDel = Nothing
@@ -810,7 +810,7 @@ Public Class CDBOperation
             End If
 
             stSQL = "select count(" & _pFldName & ") as jml from " & _pTblName
-            If Trim(_pFilter) <> "" Then stSQL = stSQL & " where " & _pFilter & ";"
+            If Trim(_pFilter) <> "" Then stSQL = stSQL & " where " & _pFilter & IIf(TypeOf _conn Is OracleConnection, "", ";")
 
             'return value akan = 0 jika tidak ada record / tidak ada record yg sesuai kriteria
             Call CommandConstructor(_conn, _comm, stSQL, "select", _checkPetik)
@@ -1129,17 +1129,17 @@ Public Class CDBOperation
         Dim stSQL As String
         Try
             If Not IsNothing(_pFilter) Then
-                If (_dbType = "pgsql") Then
+                If (TypeOf _conn Is NpgsqlConnection) Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " LIMIT 1;"
-                ElseIf (_dbType = "oracle") Then
+                ElseIf (TypeOf _conn Is OracleConnection) Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW ONLY"
                 Else
                     stSQL = "SELECT TOP 1 " & _pFldName & " FROM " & _pTblName & " WHERE " & _pFilter & " ORDER BY " & _pFldName & " " & _sortingMethod & ";"
                 End If
             Else
-                If (_dbType = "pgsql") Then
+                If (TypeOf _conn Is NpgsqlConnection) Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " LIMIT 1;"
-                ElseIf (_dbType = "oracle") Then
+                ElseIf (TypeOf _conn Is OracleConnection) Then
                     stSQL = "SELECT " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & " FETCH FIRST 1 ROW ONLY"
                 Else
                     stSQL = "SELECT TOP 1 " & _pFldName & " FROM " & _pTblName & " ORDER BY " & _pFldName & " " & _sortingMethod & ";"
@@ -1159,13 +1159,13 @@ Public Class CDBOperation
         Try
             If Not IsNothing(_pFilter) Then
                 'If (_dbType = "pgsql") Then
-                stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & " WHERE " & _pFilter & " " & _groupByStatement & IIf(_dbType = "oracle", "", ";")
+                stSQL = "SELECT " & _formulationMethod & "(" & _pFldName & ") as i FROM " & _pTblName & " WHERE " & _pFilter & " " & _groupByStatement & IIf(TypeOf _conn Is OracleConnection, "", ";")
                 'Else
                 '    stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & " WHERE " & _pFilter & ";"
                 'End If
             Else
                 'If (_dbType = "pgsql") Then
-                stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & " " & _groupByStatement & IIf(_dbType = "oracle", "", ";")
+                stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & " " & _groupByStatement & IIf(TypeOf _conn Is OracleConnection, "", ";")
                 'Else
                 '    stSQL = "Select " & _formulationMethod & "(" & _pFldName & ") As i FROM " & _pTblName & ";"
                 'End If
@@ -1242,9 +1242,9 @@ Public Class CDBOperation
             isExist = True
             idx = 0
             While isExist
-                If (_dbType = "access") Then
+                If (TypeOf _conn Is OleDb.OleDbConnection) Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at=#" & Now.AddSeconds(idx) & "#")
-                ElseIf (_dbType = "sql" Or _dbType = "pgsql" Or _dbType = "oracle") Then
+                ElseIf (TypeOf _conn Is SqlConnection Or TypeOf _conn Is NpgsqlConnection Or TypeOf _conn Is OracleConnection) Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at='" & Now.AddSeconds(idx) & "'")
                 End If
                 If Not isExist Then
@@ -1269,9 +1269,9 @@ Public Class CDBOperation
             isExist = True
             idx = 0
             While isExist
-                If (_dbType = "access") Then
+                If (TypeOf _conn Is OleDb.OleDbConnection) Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at=#" & Now.AddSeconds(idx) & "#")
-                ElseIf (_dbType = "sql" Or _dbType = "pgsql" Or _dbType = "oracle") Then
+                ElseIf (TypeOf _conn Is SqlConnection Or TypeOf _conn Is NpgsqlConnection Or TypeOf _conn Is OracleConnection) Then
                     isExist = IsExistRecords(_conn, _comm, _reader, "updated_at", _dbaseTbl, "updated_at='" & Now.AddSeconds(idx) & "'")
                 End If
                 If Not isExist Then
