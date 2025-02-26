@@ -1380,25 +1380,25 @@ Public Class CStringManipulation
         End Try
     End Function
 
-    Public Function QueryBuilder(_queryType As String, _tablename As String, _values As String, Optional _fields As String = Nothing, Optional _where As String = Nothing) As String
+    Public Function QueryBuilder(_queryType As String, _tablename As String, _values As String, Optional _fields As String = Nothing, Optional _where As String = Nothing, Optional _semicolon As String = ";") As String
         Try
             If (_queryType = "insert") Then
                 If _fields.Length = 0 Then
-                    QueryBuilder = "INSERT INTO " & _tablename & " VALUES (" & _values & ");"
+                    QueryBuilder = "INSERT INTO " & _tablename & " VALUES (" & _values & ")" & _semicolon
                 Else
-                    QueryBuilder = "INSERT INTO " & _tablename & " (" & _fields & ") VALUES (" & _values & ");"
+                    QueryBuilder = "INSERT INTO " & _tablename & " (" & _fields & ") VALUES (" & _values & ")" & _semicolon
                 End If
             ElseIf (_queryType = "update") Then
                 If _where.Length = 0 Then
-                    QueryBuilder = "UPDATE " & _tablename & " SET " & _values & ";"
+                    QueryBuilder = "UPDATE " & _tablename & " SET " & _values & "" & _semicolon
                 Else
-                    QueryBuilder = "UPDATE " & _tablename & " SET " & _values & " WHERE " & _where & ";"
+                    QueryBuilder = "UPDATE " & _tablename & " SET " & _values & " WHERE " & _where & "" & _semicolon
                 End If
             ElseIf (_queryType = "delete") Then
                 If _where.Length = 0 Then
-                    QueryBuilder = "DELETE FROM " & _tablename & ";"
+                    QueryBuilder = "DELETE FROM " & _tablename & "" & _semicolon
                 Else
-                    QueryBuilder = "DELETE FROM " & _tablename & " WHERE " & _where & ";"
+                    QueryBuilder = "DELETE FROM " & _tablename & " WHERE " & _where & "" & _semicolon
                 End If
             End If
         Catch ex As Exception
