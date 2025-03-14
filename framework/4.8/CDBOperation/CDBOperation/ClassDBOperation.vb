@@ -487,7 +487,7 @@ Public Class CDBOperation
             End If
             If (TypeOf _conn Is OleDb.OleDbConnection) Then
                 stSQLDel = "Delete T.* From " & _stTableName & " as T " & _stCrit & ";"
-            ElseIf (TypeOf _conn Is SqlConnection Or TypeOf _conn Is OracleConnection) Then
+            ElseIf (TypeOf _conn Is SqlConnection Or TypeOf _conn Is NpgsqlConnection) Then
                 stSQLDel = "Delete From " & _stTableName & " " & _stCrit & ";"
             ElseIf (TypeOf _conn Is OracleConnection) Then
                 stSQLDel = "Delete From " & _stTableName & " " & _stCrit
