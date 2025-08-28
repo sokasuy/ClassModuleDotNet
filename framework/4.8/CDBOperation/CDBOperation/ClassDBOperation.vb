@@ -1293,12 +1293,12 @@ Public Class CDBOperation
             Dim myAutoKode As String
             Dim stSQL As String
 
-            If (_dbType = "pgsql") Then
+            If (TypeOf _conn Is NpgsqlConnection) Then
                 stSQL = "SELECT kode " &
                         "FROM " & _tblName & " " &
                         "ORDER BY id DESC " &
                         "LIMIT 1;"
-            ElseIf (_dbType = "oracle") Then
+            ElseIf (TypeOf _conn Is OracleConnection) Then
                 stSQL = "SELECT kode " &
                         "FROM " & _tblName & " " &
                         "ORDER BY id DESC " &
@@ -1363,13 +1363,13 @@ Public Class CDBOperation
                 _prefixKode &= "" & mPeriodeDoc
             End If
 
-            If (_dbType = "pgsql") Then
+            If (TypeOf _conn Is NpgsqlConnection) Then
                 stSQL = "SELECT " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & _prefixKode & "%'" &
                         "ORDER BY " & _kodeField & " DESC " &
                         "LIMIT 1;"
-            ElseIf (_dbType = "oracle") Then
+            ElseIf (TypeOf _conn Is OracleConnection) Then
                 stSQL = "SELECT " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & _prefixKode & "%'" &
@@ -1430,13 +1430,13 @@ Public Class CDBOperation
             mPeriodeDoc = Format(_prefixDate, "ddMMMyyyy").ToUpper
             myPrefixKode = mPeriodeDoc & _identityValue
 
-            If (_dbType = "pgsql") Then
+            If (TypeOf _conn Is NpgsqlConnection) Then
                 stSQL = "SELECT " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & myPrefixKode & "%'" &
                         "ORDER BY " & _kodeField & " DESC " &
                         "LIMIT 1;"
-            ElseIf (_dbType = "oracle") Then
+            ElseIf (TypeOf _conn Is OracleConnection) Then
                 stSQL = "SELECT " & _kodeField & " " &
                         "FROM " & _tblName & " " &
                         "WHERE " & _kodeField & " like '" & myPrefixKode & "%'" &
