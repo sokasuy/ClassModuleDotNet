@@ -1,0 +1,27 @@
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\bin\Debug\CDataTableManipulation.dll
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\bin\Debug\CDataTableManipulation.pdb
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\bin\Debug\CDataTableManipulation.xml
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbprojResolveAssemblyReference.cache
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\obj\Debug\CDataTableManipulation.Resources.resources
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbproj.GenerateResource.Cache
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\obj\Debug\CDataTableManipulation.dll
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\obj\Debug\CDataTableManipulation.xml
+C:\Users\Yusak\AppData\Local\Temporary Projects\CDataTableManipulation\obj\Debug\CDataTableManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\bin\Debug\CDataTableManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\bin\Debug\CDataTableManipulation.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\bin\Debug\CDataTableManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\bin\Debug\CDataTableManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\bin\Debug\CDataTableManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\bin\Debug\CDataTableManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.Resources.resources
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbproj.GenerateResource.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbproj.CoreCompileInputs.cache
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.dll
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.xml
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.pdb
