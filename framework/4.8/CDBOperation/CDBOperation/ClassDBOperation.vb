@@ -201,7 +201,7 @@ Public Class CDBOperation
         End Try
     End Function
 
-    Public Sub ConstructorInsertData(_conn As Object, _comm As Object, _reader As Object, _myDataTableSource As DataTable, _myTableDestination As String, Optional _mySchema As String = "", Optional _myKriteria As String = Nothing)
+    Public Sub ConstructorInsertData(_conn As Object, _comm As Object, _reader As Object, _myDataTableSource As DataTable, _myTableDestination As String, Optional _mySchema As String = "", Optional _myKriteria As String = Nothing, Optional _myKriteriaIsAColumn As Boolean = True)
         Try
             Dim mJumlahKolom As Integer
             Dim mNamaKolom(mJumlahKolom) As String
@@ -223,12 +223,14 @@ Public Class CDBOperation
                         newValues = Nothing
                         newFields = Nothing
                         For i As Integer = 0 To mJumlahKolom - 1
-                            If Not IsNothing(newValues) Then
-                                newValues &= "," & myCStringManipulation.SetInsertValues(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).DataType.Name)
-                                newFields &= "," & myCStringManipulation.SetInsertFields(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).ColumnName)
-                            Else
-                                newValues = myCStringManipulation.SetInsertValues(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).DataType.Name)
-                                newFields = myCStringManipulation.SetInsertFields(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).ColumnName)
+                            If _myDataTableSource.Columns(i).ColumnName <> _myKriteria Or _myKriteriaIsAColumn Then
+                                If Not IsNothing(newValues) Then
+                                    newValues &= "," & myCStringManipulation.SetInsertValues(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).DataType.Name)
+                                    newFields &= "," & myCStringManipulation.SetInsertFields(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).ColumnName)
+                                Else
+                                    newValues = myCStringManipulation.SetInsertValues(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).DataType.Name)
+                                    newFields = myCStringManipulation.SetInsertFields(_myDataTableSource.Rows(idx).Item(i), _myDataTableSource.Columns(i).ColumnName)
+                                End If
                             End If
                         Next
                         If (_mySchema.Length > 0) Then
