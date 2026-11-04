@@ -1,0 +1,9 @@
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\bin\Debug\CViewManager.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\bin\Debug\CViewManager.pdb
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\bin\Debug\CViewManager.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\obj\Debug\CViewManager.vbprojResolveAssemblyReference.cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\obj\Debug\CViewManager.Resources.resources
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\obj\Debug\CViewManager.vbproj.GenerateResource.Cache
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\obj\Debug\CViewManager.dll
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\obj\Debug\CViewManager.xml
+D:\Kerjaan\PROJECT\Class Module\framework\4.8\CViewManager\CViewManager\obj\Debug\CViewManager.pdb

@@ -6,6 +6,7 @@
 Imports System.Data.SqlClient
 Imports Npgsql
 Imports Oracle.ManagedDataAccess.Client
+Imports Oracle.ManagedDataAccess.Types
 Imports MySql.Data.MySqlClient
 
 Public Class CDBOperation
@@ -198,6 +199,43 @@ Public Class CDBOperation
         Catch ex As Exception
             GetDataIndividual = Nothing
             Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "GetDataIndividual Error")
+        End Try
+    End Function
+
+    Public Function GetOracleCLOB(_conn As Object, _comm As Object, _reader As Object, _stSQL As String, _columnName As String, Optional _checkPetik As Boolean = False) As String
+        Try
+            Call CommandConstructor(_conn, _comm, _stSQL, "select", _checkPetik)
+            _reader = ExecuteReaderFunction(_comm)
+
+            If _reader.Read() Then
+                Dim ordinal As Integer =
+                _reader.GetOrdinal(_columnName)
+
+                If _reader.IsDBNull(ordinal) Then
+                    Return Nothing
+                End If
+
+                Dim obj As Object = _reader.GetValue(ordinal)
+
+                If TypeOf obj Is OracleClob Then
+                    Dim clob As OracleClob = DirectCast(obj, OracleClob)
+                    Return clob.Value
+                Else
+                    Return obj.ToString()
+                End If
+            Else
+                Return Nothing
+            End If
+        Catch ex As Exception
+            Call myCShowMessage.ShowErrMsg("Pesan Error: " & ex.Message, "GetOracleCLOB Error")
+            Return Nothing
+        Finally
+            If _reader IsNot Nothing Then
+                Try
+                    _reader.Close()
+                Catch
+                End Try
+            End If
         End Try
     End Function
 

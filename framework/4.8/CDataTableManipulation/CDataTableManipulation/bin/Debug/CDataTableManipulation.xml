@@ -26,9 +26,17 @@ CDataTableManipulation
  <summary>
  Mengubah tipe kolom di DataTable
  </summary>
- <param name="dt">DataTable yang ingin diubah</param>
- <param name="columnName">Nama kolom yang akan diubah</param>
- <param name="newType">Tipe baru (misalnya GetType(String))</param>
+ <param name="_dt">DataTable yang ingin diubah</param>
+ <param name="_columnName">Nama kolom yang akan diubah</param>
+ <param name="_newType">Tipe baru (misalnya GetType(String))</param>
+</member>
+<member name="M:CDataTableManipulation.CDataTableManipulation.CloneWithFilter(System.Data.DataTable,System.String,System.String[])">
+ <summary>
+ Cloning datatable dengan Filter
+ </summary>
+ <param name="_source">DataTable yang ingin di clone</param>
+ <param name="_filter">Filter kolom</param>
+ <param name="_columns">Filter jika mau ambil kolom tertentu saja yang di clone</param>
 </member>
 </members>
 </doc>

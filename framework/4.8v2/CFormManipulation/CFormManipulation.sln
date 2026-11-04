@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CFormManipulation", "CFormManipulation\CFormManipulation.vbproj", "{4D713A2C-9499-4164-B7F4-2794F6C1A8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D713A2C-9499-4164-B7F4-2794F6C1A8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D713A2C-9499-4164-B7F4-2794F6C1A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D713A2C-9499-4164-B7F4-2794F6C1A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D713A2C-9499-4164-B7F4-2794F6C1A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63AB835E-BF85-4CF5-9309-7B7DA969D0E9}
+	EndGlobalSection
+EndGlobal

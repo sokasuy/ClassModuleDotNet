@@ -25,3 +25,4 @@ G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTa
 G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.dll
 G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.xml
 G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.pdb
+G:\DESKTOP APPLICATION\Class Module\framework\4.8\CDataTableManipulation\CDataTableManipulation\obj\Debug\CDataTableManipulation.vbproj.AssemblyReference.cache

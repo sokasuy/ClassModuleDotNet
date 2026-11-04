@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CDataGridViewManipulation
+</name>
+</assembly>
+<members>
+<member name="T:CDataGridViewManipulation.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CDataGridViewManipulation.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CDataGridViewManipulation.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CDataGridViewManipulation.CDataGridViewManipulation.FindRowIndexByColumnValue(System.Windows.Forms.DataGridView,System.String,System.Object)">
+ <summary>
+ Mencari index baris pada DataGridView berdasarkan nilai pada kolom tertentu.
+ </summary>
+ <param name="_dataGridView">DataGridView yang ingin dicari.</param>
+ <param name="_columnName">Nama kolom yang ingin dicek.</param>
+ <param name="_valueToFind">Nilai yang ingin dicari.</param>
+ <returns>Index baris (Integer) atau -1 jika tidak ditemukan.</returns>
+</member>
+</members>
+</doc>

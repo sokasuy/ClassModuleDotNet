@@ -1,0 +1,1 @@
+Dim hash = New System.Security.Cryptography.SHA256Managed().ComputeHash(System.Text.Encoding.UTF8.GetBytes("The-password"))
